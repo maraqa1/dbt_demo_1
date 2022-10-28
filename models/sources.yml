@@ -1,15 +1,10 @@
 sources:
-  - name: shiny server project
-    description: shiny server
     database: shiny-server-yottalogica
     schema: flights_test
        tables:
       - name: airports
-       description: airports table
-      -name: flights
-      description: flights table
-      -name: rawflights
-      description: raw flights data
+      - name: flights
+      - name: rawflights
 
 
 
