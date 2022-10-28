@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bigquery # are you sure you want to name it this? usually we name things after the data source, like 'stripe', or 'saleforce'
+    schema: dbt_sample_data
+    database: shiny-server-yottalogica
+    tables: 
+      - name: flights
