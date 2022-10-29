@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: bigquery
+    description: this is a abc
+    schema: flights_test
+    description: schema abc
+    database: shiny-server-yottalogica
+    description: shiny abc
+    tables:
+      - name: airports
+        description: airports abc
+      - name: flights
+      - name: rawflights
+
+
+
+
+
