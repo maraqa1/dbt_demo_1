@@ -10,6 +10,11 @@ sources:
     tables:
       - name: airports
         description: airports abc
+        columns:
+          - name: DayofMonth
+            description: "day of the month"
+          - name: DayOfWeek
+            description: "day of the week"
       - name: flights
       - name: rawflights
 
