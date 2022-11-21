@@ -3,21 +3,22 @@ version: 2
 sources:
   - name: bigquery
     description: this is a abc
-    schema: flights_test
+    schema: toyota_pilot
     description: schema abc
     database: shiny-server-yottalogica
     description: shiny abc
     tables:
-      - name: airports
-        description: airports abc
+      - name: Invoice_tbl
+        description: This table is all about invoicing
         columns:
-          - name: DayofMonth
-            description: "day of the month"
-          - name: DayOfWeek
-            description: "day of the week"
-      - name: flights
-      - name: rawflights
-
+          - name: company
+            description: "Here the company is the company which carried out the purchase"
+          - name: invoice_type_code
+            description: "There are multiple types to each invoice"
+      - name: customer_tbl
+      - name: employees_tbl
+      - name: date_tbl
+      - name: vehicle
 
 
 
